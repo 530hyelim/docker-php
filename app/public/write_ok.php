@@ -15,7 +15,7 @@ $arr = [
 $rs = $stmt->execute($arr);
 
 if ($rs) {
-    echo "성공적으로 저장이 되었습니다.";
+    echo "성공적으로 저장이 되었습니다. <a href='list.php'>글 목록 보기</a>";
 } else {
-    echo "글 저장에 실패했습니다.";
+    echo "글 저장에 실패했습니다. <a href='list.php'>글 목록 보기</a>";
 }
